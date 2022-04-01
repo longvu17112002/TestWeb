@@ -1,0 +1,56 @@
+@media (max-width: 740px) {
+    #header {
+        overflow: hidden;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    #header .search-button {
+        display: none;
+    }
+    #nav {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background: #333;
+        padding: 5px 42px;
+    }
+    #nav .subnav a {
+        color: #fff;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav>li:first-child {
+        display: inline-block;
+    }
+    .member-item {
+        width: 100%;
+        padding: 16px;
+    }
+    .place-item {
+        width: 100%;
+        padding: 16px;
+    }
+    .content img {
+        width: 60%;
+    }
+    .contact-information {
+        width: 100%;
+    }
+    .contact-form {
+        width: 100%;
+        padding-top: 15px;
+    }
+    .name-form,
+    .email-form {
+        width: 100%;
+    }
+    .buy-btn,
+    .form-send-btn {
+        width: 100%;
+    }
+}
+
+@media (min-width: 740px) {}
